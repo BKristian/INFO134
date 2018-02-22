@@ -1,0 +1,43 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.nav a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav a:hover {
+  background-color: #df8931;
+}
+
+img {
+  width: 100%;
+}
+
+#flexWrapper {
+  position: absolute;
+  top: 50px;
+}
+
+#flex {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.half {
+  width: 48%;
+}
+
+.quarter {
+  width: 24%;
+}

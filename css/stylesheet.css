@@ -1,0 +1,50 @@
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: #666666;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: #111111;
+  }
+}
+
+body {
+  color: #b7b8b9;
+}
+
+tr:nth-child(odd) {
+  background-color: #333333;
+}
+
+tr:hover {
+  background-color: #ce7820;
+  color: #d7d8d9;
+}
+
+.nav {
+  background-color: #ce7820;
+  color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.nav a {
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav a:hover {
+  background-color: #df8931;
+}
+
+.content {
+  position: absolute;
+  top: 50px;
+}
